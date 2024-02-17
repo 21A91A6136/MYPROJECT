@@ -1,0 +1,32 @@
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .category-card h3 {
+    font-size: 24px;
+  }
+  
+  .category-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .category-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .category-card .btn {
+    display: block;
+    margin-top: 10px;
+  }

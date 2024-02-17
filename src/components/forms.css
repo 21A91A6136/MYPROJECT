@@ -1,0 +1,78 @@
+/* FormStyles.css */
+
+/* Shared styles for registration and login forms */
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px; /* Top margin for all screen sizes */
+  }
+  
+  .form-wrapper {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Specific styles for registration form */
+  .registration-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* Specific styles for login form */
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* Responsive top margin adjustments */
+  @media (max-width: 768px) {
+    .form-container {
+      margin-top: 30px; /* Adjusted margin for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .form-container {
+      margin-top: 20px; /* Further adjusted margin for even smaller screens */
+    }
+  }
+  

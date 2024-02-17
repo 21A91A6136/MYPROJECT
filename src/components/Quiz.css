@@ -1,0 +1,75 @@
+/* Quiz.css */
+.quiz {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .check-answers-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block; /* Center align the button */
+    margin: 0 auto; /* Center align the button */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .check-answers-button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Center align the options */
+    text-align: left;
+  }
+  
+  li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align the radio buttons and labels */
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .back-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block; /* Center align the button */
+    margin: 0 auto; /* Center align the button */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }

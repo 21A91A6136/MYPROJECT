@@ -1,0 +1,8 @@
+/* Video1.css */
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-image: linear-gradient(rgb(223, 157, 223), rgb(229, 229, 163),rgb(124, 198, 247));
+  }

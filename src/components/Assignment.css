@@ -1,0 +1,77 @@
+/* Assignment.css */
+
+.assignment {
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  /* background-image: url("D:\project\frontend\public\assignmentbg.avif"); */
+  background-color: linear-gradient(rgb(175, 141, 175),rgb(124, 198, 247));
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional, for fixed background */
+  height: 100vh;
+}
+
+.assignment h2 {
+  font-size: 1.5rem;
+  margin: 0px 0;
+}
+
+.card-container2 {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card8 {
+  margin: 15px;
+  max-width: 18rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body1 {
+  padding: 1rem;
+  justify-content: center;
+}
+
+.card-title1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text1 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.start-quiz-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.start-quiz-button:hover {
+  background-color: #0056b3;
+}
+
+.back-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,26 @@
+.additional-content {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .heading3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .para {
+    font-size: 16px;
+  }
+  .division {
+    background-image: url("D:\React\frontend\frontend\public\roadmapbg.jpg");
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional, for fixed background */
+  height: 100vh;
+  }
+  .course-buttons {
+    background:transparent;
+    backdrop-filter: saturate(180%) blur(5px);
+    text-align: center;
+  }

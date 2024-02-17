@@ -1,0 +1,60 @@
+/* footer.css */
+
+.site-footer {
+  background-color: rgb(249, 247, 253); /* Adjust background color as needed */
+  color: #7030cf; /* Adjust text color as needed */
+  padding: 20px 0;
+}
+
+.footer {
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 0 0 33.33%; /* Adjust column width as needed */
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+h4 {
+  color: black; /* Adjust heading text color as needed */
+}
+
+p, li {
+  color:#7030cf; /* Adjust text color as needed */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color:#7030cf; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Fixed Footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}

@@ -1,0 +1,43 @@
+.category-list {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    margin: 0 -10px; /* Add some negative margin to create spacing around the cards */
+  }
+  
+  /* Style for individual cards */
+  .category-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    margin: 0 10px; /* Add left and right margin to create spacing between the cards */
+  }
+  
+  .category-card h3 {
+    font-size: 24px;
+  }
+  
+  .category-card img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  .category-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .category-card .btn {
+    display: block;
+    margin-top: 10px;
+  }
+  .resources1 {
+    background-image: url("D:\React\frontend\frontend\public\resources.jpg");
+  }
+  .hello1 {
+    background-color: linear-gradient(rgb(57, 215, 215),rgb(226, 139, 184));
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional, for fixed background */
+  height: 100vh;
+  }
